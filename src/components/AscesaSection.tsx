@@ -20,8 +20,8 @@ const AscesaSection = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80"
-              alt="Rappresentazione del regime nazista"
+              src="https://images.unsplash.com/photo-1603739903239-8b6e64c3b185?auto=format&fit=crop&q=80"
+              alt="Hitler durante un discorso pubblico"
               className="historical-image max-w-full h-auto rounded-lg"
             />
           </div>

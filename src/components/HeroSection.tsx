@@ -11,12 +11,12 @@ const HeroSection = () => {
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-black/60 z-10"></div>
+      <div className="absolute inset-0 bg-black/70 z-10"></div>
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80')",
+            "url('https://images.unsplash.com/photo-1679842839344-bab62a202e83?auto=format&fit=crop&q=80')",
         }}
       ></div>
       

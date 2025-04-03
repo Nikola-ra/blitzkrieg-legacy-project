@@ -20,8 +20,8 @@ const IntroSection = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1458668383970-8ddd3927deed?auto=format&fit=crop&q=80"
-              alt="Immagine storica del periodo post-prima guerra mondiale"
+              src="https://images.unsplash.com/photo-1562868114-ef12188257ad?auto=format&fit=crop&q=80"
+              alt="Immagine della firma del Trattato di Versailles"
               className="historical-image max-w-full h-auto rounded-lg"
             />
           </div>
@@ -30,8 +30,8 @@ const IntroSection = () => {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1 flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&q=80"
-              alt="Panorama europeo negli anni '20"
+              src="https://images.unsplash.com/photo-1606215708227-979704525388?auto=format&fit=crop&q=80"
+              alt="Rappresentazione delle conseguenze economiche post-guerra"
               className="historical-image max-w-full h-auto rounded-lg"
             />
           </div>

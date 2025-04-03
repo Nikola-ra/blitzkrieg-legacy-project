@@ -22,48 +22,48 @@ interface GalleryItem {
 const galleryItems: GalleryItem[] = [
   {
     id: 1,
-    thumbnail: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=400&h=300",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80",
+    thumbnail: "https://images.unsplash.com/photo-1576766125564-b95319d65ffc?auto=format&fit=crop&q=80&w=400&h=300",
+    image: "https://images.unsplash.com/photo-1576766125564-b95319d65ffc?auto=format&fit=crop&q=80",
     title: "Tecnologia e Guerra",
     description: "La guerra lampo tedesca si basava sull'uso innovativo della tecnologia per ottenere il vantaggio sul campo di battaglia.",
     year: "1939-1941"
   },
   {
     id: 2,
-    thumbnail: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=400&h=300",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80",
+    thumbnail: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?auto=format&fit=crop&q=80&w=400&h=300",
+    image: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?auto=format&fit=crop&q=80",
     title: "Propaganda e Comunicazione",
     description: "La propaganda nazista celebrava i successi militari della Blitzkrieg, contribuendo al mito dell'invincibilità tedesca.",
     year: "1940"
   },
   {
     id: 3,
-    thumbnail: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=400&h=300",
-    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80",
+    thumbnail: "https://images.unsplash.com/photo-1580130401233-50d1df2d002e?auto=format&fit=crop&q=80&w=400&h=300",
+    image: "https://images.unsplash.com/photo-1580130401233-50d1df2d002e?auto=format&fit=crop&q=80",
     title: "Conquista Territoriale",
     description: "Le campagne lampo permisero alla Germania di conquistare vasti territori in tempi brevissimi, cambiando la mappa dell'Europa.",
     year: "1939-1941"
   },
   {
     id: 4,
-    thumbnail: "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?auto=format&fit=crop&q=80&w=400&h=300",
-    image: "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?auto=format&fit=crop&q=80",
+    thumbnail: "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&q=80&w=400&h=300",
+    image: "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&q=80",
     title: "Impatto sulla Popolazione",
     description: "Le popolazioni civili dei paesi invasi subirono le conseguenze devastanti dell'avanzata tedesca.",
     year: "1940-1941"
   },
   {
     id: 5,
-    thumbnail: "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&q=80&w=400&h=300",
-    image: "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&q=80",
+    thumbnail: "https://images.unsplash.com/photo-1547573854-74d2a71d0826?auto=format&fit=crop&q=80&w=400&h=300",
+    image: "https://images.unsplash.com/photo-1547573854-74d2a71d0826?auto=format&fit=crop&q=80",
     title: "Cambio delle Strategie",
     description: "La Guerra Lampo rivoluzionò la dottrina militare, costringendo gli Alleati ad adattare le proprie strategie.",
     year: "1941-1942"
   },
   {
     id: 6,
-    thumbnail: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=400&h=300",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80",
+    thumbnail: "https://images.unsplash.com/photo-1596210938177-64701643f85d?auto=format&fit=crop&q=80&w=400&h=300",
+    image: "https://images.unsplash.com/photo-1596210938177-64701643f85d?auto=format&fit=crop&q=80",
     title: "Tecnologia Militare",
     description: "L'innovazione tecnologica fu un elemento chiave del successo della Blitzkrieg, con carri armati e aerei all'avanguardia.",
     year: "1939-1940"
