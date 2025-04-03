@@ -1,13 +1,12 @@
-
-import { ArrowDown } from "lucide-react";
+import { ArrowDown } from "lucide-react"
 
 const HeroSection = () => {
   const scrollToIntro = () => {
-    const introSection = document.getElementById("intro");
+    const introSection = document.getElementById("intro")
     if (introSection) {
-      introSection.scrollIntoView({ behavior: "smooth" });
+      introSection.scrollIntoView({ behavior: "smooth" })
     }
-  };
+  }
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -15,17 +14,17 @@ const HeroSection = () => {
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1679842839344-bab62a202e83?auto=format&fit=crop&q=80')",
+          backgroundImage: "url(/blitzkrieg-legacy-project/images/hero.png)",
         }}
       ></div>
-      
+
       <div className="container mx-auto px-6 relative z-20 text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
           La Guerra Lampo di Hitler
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto animate-slide-in">
-          Dalla propaganda al potere: il cammino verso la guerra lampo che cambiò il volto dell'Europa
+          Dalla propaganda al potere: il cammino verso la guerra lampo che
+          cambiò il volto dell'Europa
         </p>
         <button
           onClick={scrollToIntro}
@@ -36,7 +35,7 @@ const HeroSection = () => {
         </button>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default HeroSection;
+export default HeroSection
