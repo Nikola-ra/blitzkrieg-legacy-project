@@ -1,8 +1,7 @@
-
 import { useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Calendar, Flag, Map, Military } from "lucide-react";
+import { Calendar, Flag, Map, Sword } from "lucide-react";
 
 const timelineEvents = [
   {
@@ -96,7 +95,7 @@ const StrategiaSection = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <div className="flex items-center mb-4">
-                    <Military className="w-8 h-8 text-history-accent mr-3" />
+                    <Sword className="w-8 h-8 text-history-accent mr-3" />
                     <h4 className="text-xl font-bold">Divisioni Corazzate (Panzer)</h4>
                   </div>
                   <p>
