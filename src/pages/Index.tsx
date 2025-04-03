@@ -1,12 +1,24 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import NavBar from "@/components/NavBar";
+import HeroSection from "@/components/HeroSection";
+import IntroSection from "@/components/IntroSection";
+import AscesaSection from "@/components/AscesaSection";
+import StrategiaSection from "@/components/StrategiaSection";
+import ImpattoSection from "@/components/ImpattoSection";
+import MediaSection from "@/components/MediaSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-history-light">
+      <NavBar />
+      <HeroSection />
+      <IntroSection />
+      <AscesaSection />
+      <StrategiaSection />
+      <ImpattoSection />
+      <MediaSection />
+      <Footer />
     </div>
   );
 };
